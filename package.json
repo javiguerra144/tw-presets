@@ -1,0 +1,43 @@
+{
+  "name": "@jgmelgares/tw-presets",
+  "version": "0.0.1",
+  "main": "tailwind-preset.js",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "files": [
+    "tailwind-preset.js",
+    "styles.css"
+  ],
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwind-preset",
+    "tailwind-theme",
+    "design-system",
+    "utility-first",
+    "css",
+    "custom-tailwind",
+    "tailwind-configuration",
+    "dark-mode",
+    "light-mode",
+    "responsive-design",
+    "tailwind-components",
+    "tailwind-utilities",
+    "predefined-styles"
+  ],
+  "author": "Javier Guerra",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javiguerra144/tw-presets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/javiguerra144/tw-presets/issues"
+  },
+  "homepage": "https://github.com/javiguerra144/tw-presets#readme",
+  "license": "MIT",
+  "description": "A reusable Tailwind CSS preset package for creating consistent and customizable design systems. This package includes a Tailwind preset configuration and a CSS file with predefined variables to streamline your development workflow.",
+  "dependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
