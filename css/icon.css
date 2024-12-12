@@ -1,0 +1,16 @@
+/**
+ * Icons
+ * @author Javier Guerra
+ */
+
+:root {
+  --icon-xs: 12px;
+  --icon-sm: 16px;
+  --icon-md: 20px;
+  --icon-lg: 24px;
+  --icon-xl: 28px;
+  --icon-2xl: 32px;
+  --icon-3xl: 36px;
+  --icon-4xl: 40px;
+  --icon-4xl: 44px;
+}
