@@ -1,6 +1,6 @@
 {
   "name": "@jgmelgares/tw-presets",
-  "version": "0.0.12",
+  "version": "1.0.0",
   "scripts": {
     "pub": "npm publish --access public"
   },
