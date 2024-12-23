@@ -1,0 +1,264 @@
+/**
+ * Typography
+ * @author Javier Guerra
+ */
+
+:root {
+  /* Font weight */
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+
+  /* Font family */
+  --font-family-sans: Inter, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  --font-family-serif: Merriweather, Georgia, Cambria, "Times New Roman", Times,
+    serif;
+  --font-family-mono: "Roboto Mono", Menlo, Monaco, Lucida Console,
+    Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
+    monospace;
+  --font-family-heading: var(--font-family-sans);
+  --font-family-body: var(--font-family-sans);
+  --font-family-code: var(--font-family-mono);
+
+  /* Font size */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 30px;
+  --font-size-4xl: 36px;
+  --font-size-5xl: 48px;
+  --font-size-6xl: 60px;
+  --font-size-7xl: 72px;
+  --font-size-8xl: 96px;
+  --font-size-9xl: 128px;
+
+  /* Line height */
+  --line-height-xs: 16px;
+  --line-height-sm: 20px;
+  --line-height-base: 24px;
+  --line-height-lg: 28px;
+  --line-height-xl: 28px;
+  --line-height-2xl: 32px;
+  --line-height-3xl: 36px;
+  --line-height-4xl: 40px;
+  --line-height-5xl: 48px;
+  --line-height-6xl: 60px;
+  --line-height-7xl: 72px;
+  --line-height-8xl: 96px;
+  --line-height-9xl: 128px;
+
+  /* Font */
+  /* || xs || */
+  --font-xs-extralight: var(--font-weight-extra-light) var(--font-size-xs) /
+    var(--line-height-xs) var(--font-family-sans);
+  --font-xs-light: var(--font-weight-light) var(--font-size-xs) /
+    var(--line-height-xs) var(--font-family-sans);
+  --font-xs-regular: var(--font-weight-regular) var(--font-size-xs) /
+    var(--line-height-xs) var(--font-family-sans);
+  --font-xs-medium: var(--font-weight-medium) var(--font-size-xs) /
+    var(--line-height-xs) var(--font-family-sans);
+  --font-xs-semibold: var(--font-weight-semi-bold) var(--font-size-xs) /
+    var(--line-height-xs) var(--font-family-sans);
+  --font-xs-bold: var(--font-weight-bold) var(--font-size-xs) /
+    var(--line-height-xs) var(--font-family-sans);
+  /* || sm || */
+  --font-sm-extralight: var(--font-weight-extra-light) var(--font-size-sm) /
+    var(--line-height-sm) var(--font-family-sans);
+  --font-sm-light: var(--font-weight-light) var(--font-size-sm) /
+    var(--line-height-sm) var(--font-family-sans);
+  --font-sm-regular: var(--font-weight-regular) var(--font-size-sm) /
+    var(--line-height-sm) var(--font-family-sans);
+  --font-sm-medium: var(--font-weight-medium) var(--font-size-sm) /
+    var(--line-height-sm) var(--font-family-sans);
+  --font-sm-semibold: var(--font-weight-semi-bold) var(--font-size-sm) /
+    var(--line-height-sm) var(--font-family-sans);
+  --font-sm-bold: var(--font-weight-bold) var(--font-size-sm) /
+    var(--line-height-sm) var(--font-family-sans);
+  /* || base || */
+  --font-base-extralight: var(--font-weight-extra-light) var(--font-size-base) /
+    var(--line-height-base) var(--font-family-sans);
+  --font-base-light: var(--font-weight-light) var(--font-size-base) /
+    var(--line-height-base) var(--font-family-sans);
+  --font-base-regular: var(--font-weight-regular) var(--font-size-base) /
+    var(--line-height-base) var(--font-family-sans);
+  --font-base-medium: var(--font-weight-medium) var(--font-size-base) /
+    var(--line-height-base) var(--font-family-sans);
+  --font-base-semibold: var(--font-weight-semi-bold) var(--font-size-base) /
+    var(--line-height-base) var(--font-family-sans);
+  --font-base-bold: var(--font-weight-bold) var(--font-size-base) /
+    var(--line-height-base) var(--font-family-sans);
+  /* || lg || */
+  --font-lg-extralight: var(--font-weight-extra-light) var(--font-size-lg) /
+    var(--line-height-lg) var(--font-family-sans);
+  --font-lg-light: var(--font-weight-light) var(--font-size-lg) /
+    var(--line-height-lg) var(--font-family-sans);
+  --font-lg-regular: var(--font-weight-regular) var(--font-size-lg) /
+    var(--line-height-lg) var(--font-family-sans);
+  --font-lg-medium: var(--font-weight-medium) var(--font-size-lg) /
+    var(--line-height-lg) var(--font-family-sans);
+  --font-lg-semibold: var(--font-weight-semi-bold) var(--font-size-lg) /
+    var(--line-height-lg) var(--font-family-sans);
+  --font-lg-bold: var(--font-weight-bold) var(--font-size-lg) /
+    var(--line-height-lg) var(--font-family-sans);
+  /* || xl || */
+  --font-xl-extralight: var(--font-weight-extra-light) var(--font-size-xl) /
+    var(--line-height-xl) var(--font-family-sans);
+  --font-xl-light: var(--font-weight-light) var(--font-size-xl) /
+    var(--line-height-xl) var(--font-family-sans);
+  --font-xl-regular: var(--font-weight-regular) var(--font-size-xl) /
+    var(--line-height-xl) var(--font-family-sans);
+  --font-xl-medium: var(--font-weight-medium) var(--font-size-xl) /
+    var(--line-height-xl) var(--font-family-sans);
+  --font-xl-semibold: var(--font-weight-semi-bold) var(--font-size-xl) /
+    var(--line-height-xl) var(--font-family-sans);
+  --font-xl-bold: var(--font-weight-bold) var(--font-size-xl) /
+    var(--line-height-xl) var(--font-family-sans);
+  /* || 2xl || */
+  --font-2xl-extralight: var(--font-weight-extra-light) var(--font-size-2xl) /
+    var(--line-height-2xl) var(--font-family-sans);
+  --font-2xl-light: var(--font-weight-light) var(--font-size-2xl) /
+    var(--line-height-2xl) var(--font-family-sans);
+  --font-2xl-regular: var(--font-weight-regular) var(--font-size-2xl) /
+    var(--line-height-2xl) var(--font-family-sans);
+  --font-2xl-medium: var(--font-weight-medium) var(--font-size-2xl) /
+    var(--line-height-2xl) var(--font-family-sans);
+  --font-2xl-semibold: var(--font-weight-semi-bold) var(--font-size-2xl) /
+    var(--line-height-2xl) var(--font-family-sans);
+  --font-2xl-bold: var(--font-weight-bold) var(--font-size-2xl) /
+    var(--line-height-2xl) var(--font-family-sans);
+  /* || 3xl || */
+  --font-3xl-extralight: var(--font-weight-extra-light) var(--font-size-3xl) /
+    var(--line-height-3xl) var(--font-family-sans);
+  --font-3xl-light: var(--font-weight-light) var(--font-size-3xl) /
+    var(--line-height-3xl) var(--font-family-sans);
+  --font-3xl-regular: var(--font-weight-regular) var(--font-size-3xl) /
+    var(--line-height-3xl) var(--font-family-sans);
+  --font-3xl-medium: var(--font-weight-medium) var(--font-size-3xl) /
+    var(--line-height-3xl) var(--font-family-sans);
+  --font-3xl-semibold: var(--font-weight-semi-bold) var(--font-size-3xl) /
+    var(--line-height-3xl) var(--font-family-sans);
+  --font-3xl-bold: var(--font-weight-bold) var(--font-size-3xl) /
+    var(--line-height-3xl) var(--font-family-sans);
+  /* || 4xl || */
+  --font-4xl-extralight: var(--font-weight-extra-light) var(--font-size-4xl) /
+    var(--line-height-4xl) var(--font-family-sans);
+  --font-4xl-light: var(--font-weight-light) var(--font-size-4xl) /
+    var(--line-height-4xl) var(--font-family-sans);
+  --font-4xl-regular: var(--font-weight-regular) var(--font-size-4xl) /
+    var(--line-height-4xl) var(--font-family-sans);
+  --font-4xl-medium: var(--font-weight-medium) var(--font-size-4xl) /
+    var(--line-height-4xl) var(--font-family-sans);
+  --font-4xl-semibold: var(--font-weight-semi-bold) var(--font-size-4xl) /
+    var(--line-height-4xl) var(--font-family-sans);
+  --font-4xl-bold: var(--font-weight-bold) var(--font-size-4xl) /
+    var(--line-height-4xl) var(--font-family-sans);
+  /* || 5xl || */
+  --font-5xl-extralight: var(--font-weight-extra-light) var(--font-size-5xl) /
+    var(--line-height-5xl) var(--font-family-sans);
+  --font-5xl-light: var(--font-weight-light) var(--font-size-5xl) /
+    var(--line-height-5xl) var(--font-family-sans);
+  --font-5xl-regular: var(--font-weight-regular) var(--font-size-5xl) /
+    var(--line-height-5xl) var(--font-family-sans);
+  --font-5xl-medium: var(--font-weight-medium) var(--font-size-5xl) /
+    var(--line-height-5xl) var(--font-family-sans);
+  --font-5xl-semibold: var(--font-weight-semi-bold) var(--font-size-5xl) /
+    var(--line-height-5xl) var(--font-family-sans);
+  --font-5xl-bold: var(--font-weight-bold) var(--font-size-5xl) /
+    var(--line-height-5xl) var(--font-family-sans);
+  /* || 6xl || */
+  --font-6xl-extralight: var(--font-weight-extra-light) var(--font-size-6xl) /
+    var(--line-height-6xl) var(--font-family-sans);
+  --font-6xl-light: var(--font-weight-light) var(--font-size-6xl) /
+    var(--line-height-6xl) var(--font-family-sans);
+  --font-6xl-regular: var(--font-weight-regular) var(--font-size-6xl) /
+    var(--line-height-6xl) var(--font-family-sans);
+  --font-6xl-medium: var(--font-weight-medium) var(--font-size-6xl) /
+    var(--line-height-6xl) var(--font-family-sans);
+  --font-6xl-semibold: var(--font-weight-semi-bold) var(--font-size-6xl) /
+    var(--line-height-6xl) var(--font-family-sans);
+  --font-6xl-bold: var(--font-weight-bold) var(--font-size-6xl) /
+    var(--line-height-6xl) var(--font-family-sans);
+  /* || 7xl || */
+  --font-7xl-extralight: var(--font-weight-extra-light) var(--font-size-7xl) /
+    var(--line-height-7xl) var(--font-family-sans);
+  --font-7xl-light: var(--font-weight-light) var(--font-size-7xl) /
+    var(--line-height-7xl) var(--font-family-sans);
+  --font-7xl-regular: var(--font-weight-regular) var(--font-size-7xl) /
+    var(--line-height-7xl) var(--font-family-sans);
+  --font-7xl-medium: var(--font-weight-medium) var(--font-size-7xl) /
+    var(--line-height-7xl) var(--font-family-sans);
+  --font-7xl-semibold: var(--font-weight-semi-bold) var(--font-size-7xl) /
+    var(--line-height-7xl) var(--font-family-sans);
+  --font-7xl-bold: var(--font-weight-bold) var(--font-size-7xl) /
+    var(--line-height-7xl) var(--font-family-sans);
+  /* || 8xl || */
+  --font-8xl-extralight: var(--font-weight-extra-light) var(--font-size-8xl) /
+    var(--line-height-8xl) var(--font-family-sans);
+  --font-8xl-light: var(--font-weight-light) var(--font-size-8xl) /
+    var(--line-height-8xl) var(--font-family-sans);
+  --font-8xl-regular: var(--font-weight-regular) var(--font-size-8xl) /
+    var(--line-height-8xl) var(--font-family-sans);
+  --font-8xl-medium: var(--font-weight-medium) var(--font-size-8xl) /
+    var(--line-height-8xl) var(--font-family-sans);
+  --font-8xl-semibold: var(--font-weight-semi-bold) var(--font-size-8xl) /
+    var(--line-height-8xl) var(--font-family-sans);
+  --font-8xl-bold: var(--font-weight-bold) var(--font-size-8xl) /
+    var(--line-height-8xl) var(--font-family-sans);
+  /* || 9xl || */
+  --font-9xl-extralight: var(--font-weight-extra-light) var(--font-size-9xl) /
+    var(--line-height-9xl) var(--font-family-sans);
+  --font-9xl-light: var(--font-weight-light) var(--font-size-9xl) /
+    var(--line-height-9xl) var(--font-family-sans);
+  --font-9xl-regular: var(--font-weight-regular) var(--font-size-9xl) /
+    var(--line-height-9xl) var(--font-family-sans);
+  --font-9xl-medium: var(--font-weight-medium) var(--font-size-9xl) /
+    var(--line-height-9xl) var(--font-family-sans);
+  --font-9xl-semibold: var(--font-weight-semi-bold) var(--font-size-9xl) /
+    var(--line-height-9xl) var(--font-family-sans);
+  --font-9xl-bold: var(--font-weight-bold) var(--font-size-9xl) /
+    var(--line-height-9xl) var(--font-family-sans);
+
+  /* Heading */
+  --heading-9xlarge: var(--font-9xl-bold);
+  --heading-8xlarge: var(--font-8xl-bold);
+  --heading-7xlarge: var(--font-7xl-bold);
+  --heading-6xlarge: var(--font-6xl-bold);
+  --heading-5xlarge: var(--font-5xl-bold);
+  --heading-4xlarge: var(--font-4xl-bold);
+  --heading-3xlarge: var(--font-3xl-bold);
+  --heading-2xlarge: var(--font-2xl-bold);
+  --heading-xlarge: var(--font-xl-bold);
+  --heading-large: var(--font-lg-bold);
+  --heading-base: var(--font-base-bold);
+  --heading-small: var(--font-sm-bold);
+  --heading-xsmall: var(--font-xs-bold);
+
+  /* Body */
+  --body-sm-light: var(--font-xs-light);
+  --body-base-light: var(--font-sm-light);
+  --body-lg-light: var(--font-base-light);
+  --body-sm: var(--font-xs-regular);
+  --body-base: var(--font-sm-regular);
+  --body-lg: var(--font-base-regular);
+  --body-sm-medium: var(--font-xs-medium);
+  --body-base-medium: var(--font-sm-medium);
+  --body-lg-medium: var(--font-base-medium);
+  --body-sm-semibold: var(--font-xs-semibold);
+  --body-base-semibold: var(--font-sm-semibold);
+  --body-lg-semibold: var(--font-base-semibold);
+  --body-sm-bold: var(--font-xs-bold);
+  --body-base-bold: var(--font-sm-bold);
+  --body-lg-bold: var(--font-base-bold);
+
+  /* Code */
+  --code: var(--font-weight-regular) 0.875em / 1 var(--family-code);
+}
