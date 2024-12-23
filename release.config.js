@@ -1,6 +1,6 @@
 module.exports = {
   branches: ["main"],
-  repositoryUrl: "https://github.com/javiguerra144/tw-presets",
+  repositoryUrl: "https://github.com/javiguerra144/tw-presets.git",
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
